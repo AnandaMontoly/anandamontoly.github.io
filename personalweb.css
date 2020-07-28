@@ -1,0 +1,22 @@
+* {
+  text-align: center;
+  font-family: "Verdana";
+  background-color: #FCFBEF;
+}
+h3, h2 {
+  color: #436CB7;
+}
+a {
+  text-decoration: none;
+  font-style: italic;
+  color: #6495ed;
+}
+a:hover {
+  color: #CB5D3A;
+}
+a:hover:visited {
+  color: #CB5D3A;
+}
+a:visited {
+  color: #4C83E8;
+}
