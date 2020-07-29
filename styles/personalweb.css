@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #f7f7f7;
+  --bg-color: #ffffff;
   --lighter-color: #689c5d;
   --main-color: #326128;
   --contrast-accent: #258899;
@@ -19,11 +19,16 @@
 .section {
   margin-top: 10px;
   margin-bottom: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px:
 }
 
 h1, h3, h2 {
   font-family: 'Noto Sans JP', sans-serif;
   color: var(--main-color);
+}
+h3{
+  font-style: italic;
 }
 a {
   text-decoration: none;
@@ -119,7 +124,7 @@ ul:hover {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: var(--bg-color);
 }
 ::-webkit-scrollbar-thumb {
   background: var(--lighter-color);
