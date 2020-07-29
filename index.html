@@ -3,11 +3,20 @@
   <head>
     <title>Ananda Montoly | Personal Website</title>
     <link rel="stylesheet" href="styles/personalweb.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Website Under Construction. <br>Please check again later!</h1>
+    <div class="navbar">
+      <a href="#writing">Writing</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#coursework">Classes</a>
+      <a href="#about">About</a>
+
+    </div>
     <div class="textarea">
-      <h2 id="introduction">Introduction</h2>
+      <h1>Website Under Construction. <br>Please check again later!</h1>
+      <h2 id="about" class="section">About Me</h2>
       <p>Hello, I'm Ananda and I'm a junior at <a href="https://www.smith.edu/">Smith College</a> in Northampton Massachusetts.
         I'm majoring in computer science and I have an as-of-yet undeclared minor in mathematics with a focus in statistics. I am interested in working as a
         data scientist or as a software engineer after graduation. I'm also interested in getting either a masters degree or a Ph.D.
@@ -16,8 +25,9 @@
         <br><br>
         In my free time, I am an avid knitter, crafter, and reader. My favorite book is <i>The Left Hand of Darkness</i> by Ursula K. LeGuin.
       </p>
-      <h2 id="coursework">Coursework</h2>
-      <p>I've taken the following computer science and math coursework in my first two years at Smith. Next semester, I am taking Microprocessors, Algorithms, and Linear Algebra.</p>
+      <h2 id="coursework" class="section">Coursework</h2>
+      <p>I've taken the following computer science and math coursework in my first two years at Smith. Next semester, I am taking Microprocessors, Algorithms, and Linear Algebra.
+      Outside of computer science classes, I enjoy Spanish, literature, and history classes.</p>
       <div class="row">
         <div class="column">
           <ul>
@@ -37,15 +47,15 @@
           </ul>
         </div>
       </div>
-      <h2 id="experience">Experience</h2>
-      <h2 id="skills">Skills</h2>
-      <h2 id="writing">Writing</h2>
-      <h3 id=>Publications</h3>
-      <h2 id="other">Other Projects</h2>
+      <h2 id="experience" class="section">Experience</h2>
+      <h2 id="skills" class="section">Skills</h2>
+      <h2 id="writing" class="section">Writing</h2>
+      <h3>Publications</h3>
+
     </div>
     <script>
     var links = document.getElementsByTagName('a');
-    for (var i=0, len=links.length; i < len; i++) {links[i].target = '_blank';}
+    for (var i=0, len=links.length; i < len; i++) {if (links[i].parentElement.className!="navbar" ){links[i].target = '_blank';}}
     </script>
   </body>
 </html>
