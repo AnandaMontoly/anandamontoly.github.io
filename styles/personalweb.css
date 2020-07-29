@@ -1,14 +1,17 @@
 * {
-  text-align: center;
   font-family: "Verdana";
   background-color: #FCFBEF;
 }
-h3, h2 {
+body {
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+h1, h3, h2 {
   color: #436CB7;
 }
 a {
   text-decoration: none;
-  font-style: italic;
   color: #6495ed;
 }
 a:hover {
@@ -19,4 +22,23 @@ a:hover:visited {
 }
 a:visited {
   color: #4C83E8;
+}
+.row {
+  display: flex;
+  text-align: left;
+}
+.column {
+  flex: 50%;
+}
+ul {
+  border-left: 5px solid #6495ed;
+  list-style-type: none;
+  padding: 10px 20px;
+  transition: border-left 0.5s;
+}
+ul:hover {
+  border-left: 10px solid #6495ed;
+  list-style-type: none;
+  padding: 10px 20px;
+  font-style: italic;
 }
