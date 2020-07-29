@@ -124,3 +124,6 @@ ul:hover {
 ::-webkit-scrollbar-thumb {
   background: var(--lighter-color);
 }
+::-webkit-scrollbar-thumb:hover {
+  background: var(--contrast-accent);
+}
