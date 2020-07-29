@@ -81,7 +81,6 @@ ul:hover {
   display: inline-block;
   border-bottom: 1px dotted black;
 }
-
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
@@ -98,7 +97,6 @@ ul:hover {
   opacity: 0;
   transition: opacity 0.3s;
 }
-
 .tooltip .tooltiptext::after {
   content: "";
   position: absolute;
@@ -109,8 +107,20 @@ ul:hover {
   border-style: solid;
   border-color: #555 transparent transparent transparent;
 }
-
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+.floatrightimg{
+  float: right;
+  width:20%;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--lighter-color);
 }
