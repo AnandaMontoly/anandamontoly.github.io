@@ -114,6 +114,7 @@ ul:hover {
 }
 .tooltip:hover .tooltiptext {
   visibility: visible;
+  font-style: normal;
   opacity: 1;
 }
 .floatrightimg{
