@@ -129,10 +129,11 @@ ul:hover {
   background: var(--bg-color);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--lighter-color);
+  background: var(--main-color);
+
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--main-color);
+  background: var(--lighter-color);
 }
 .fa-3x {
   display: block;
@@ -146,4 +147,15 @@ ul:hover {
 }
 .fa-3x:visited{
   color: white;
+}
+.navbartext {
+  display: block;
+  text-align: center;
+  color: var(--bg-color);
+  float: right;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: inherit;
 }
