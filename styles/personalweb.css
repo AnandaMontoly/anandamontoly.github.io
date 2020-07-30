@@ -41,6 +41,9 @@ a:hover {
 a:visited {
   color: var(--lighter-color);
 }
+a:hover:visited {
+  color: var(--contrast-accent)
+}
 .row {
   display: flex;
   text-align: left;
